@@ -87,14 +87,14 @@ public class ClientCertificate extends CordovaPlugin {
         {
             p12path = a.getString(0);
             p12password = a.getString(1);
-			if(p12path.length()!=0 && p12password.length()!=0)
+			if(p12path.length()!=0)
 			{
-				c.success("Path of the certificat and password are registred for the transaction");
+				c.success("Path of the certificate and password are registred for the transaction");
             	return true;
 			}
 			else
 			{
-				c.error("Path of the certificat or password id not defined");
+				c.error("Path of the certificate is incorrect or not defined");
 				return false;
 			}
         }
