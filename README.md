@@ -28,22 +28,22 @@ Add to config.xml the following
 #Use Steps
 Clone the plugin
 
-    $ git clone https://github.com/agenceaddictic/cordova-plugin-client-certificate-addictic.git
+    $ git clone https://github.com/abhijitnandy/cordova-plugin-client-certificate-abhijit.git
 
 Create a new Cordova Project
 
     $ cordova create hello com.example.helloapp Hello
-    
+
 Install the plugin
 
     $ cd hello
-    $ cordova plugin add ../cordova-plugin-client-certificate-addictic
-    
+    $ cordova plugin add ../cordova-plugin-client-certificate-abhijit
+
 Install plugin File
 
     $ cordova plugin add cordova-plugin-file
 
-    
+
 
 Exemple :
 Copy of an embedded certificate in /www (read only) to a directory accessible in read/write
@@ -79,10 +79,10 @@ var certAuthenticate = function() {
 };
 
 var certificateRegistred = function(message) {
-	console.log(message);		
+	console.log(message);
 	// launch your web service that requires certificate authentication here
 };
-	
+
 var onSuccess = function(message){
 	console.log('Success : ', message);
 };
@@ -90,14 +90,14 @@ var onSuccess = function(message){
 var onFailure = function(message){
 	console.log('Error : ', message);
 };
-	
+
 ```
 
 Install iOS and Android platform
 
     cordova platform add ios
     cordova platform add android
-    
+
 Run the code
 
     cordova run android
