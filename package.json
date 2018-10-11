@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-client-certificate-addictic",
+  "name": "cordova-plugin-client-certificate-abhijit",
   "version": "0.0.1",
   "description": "Cordova Client Certificate Plugin",
   "cordova": {
-    "id": "cordova-plugin-client-certificate-addictic",
+    "id": "cordova-plugin-client-certificate-abhijit",
     "platforms": [
       "ios",
       "android"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agenceaddictic/cordova-plugin-client-certificate-addictic.git"
+    "url": "git+https://github.com/abhijitnandy/cordova-plugin-client-certificate-abhijit.git"
   },
   "keywords": [
     "client",
@@ -27,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/agenceaddictic/cordova-plugin-client-certificate/issues"
   },
-  "homepage": "https://github.com/agenceaddictic/cordova-plugin-client-certificate#readme"
+  "homepage": "https://github.com/abhijitnandy/cordova-plugin-client-certificate-abhijit#readme"
 }
