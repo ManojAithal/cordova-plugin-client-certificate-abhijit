@@ -80,7 +80,7 @@ var certAuthenticate = function() {
 
 var certificateRegistred = function(message) {
 	console.log(message);
-	// launch your web service that requires certificate authentication here
+	// Make any Javascript Ajax call here
 };
 
 var onSuccess = function(message){
