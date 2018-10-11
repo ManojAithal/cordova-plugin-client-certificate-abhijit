@@ -1,3 +1,7 @@
+# Cordova Client Certificate Plugin to accept blank certificate passwords
+This is a fork of the [cordova-plugin-client-certificate-addictic](https://github.com/addictic/cordova-plugin-client-certificate-addictic.git).
+This accepts blank strings as the password for the client certificate.
+
 # Cordova Client Certificate Plugin
 This plugin uses iOS implementation and API from mwaylabs/cordova-plugin-client-certificate
 
